@@ -1,0 +1,55 @@
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+@import url('https://webfontworld.github.io/Rebecca/Rebecca.css');
+
+body{width: 100vw; background-color: rgb(3, 3, 3); color: #fff; font-family: 'Pretendard';}
+
+/*style*/
+.inner{margin: 0 6vw; }
+.mainTitle{font-weight: 900; font-size: 32px; padding-top: 70px;}
+.subTitle{font-weight: 800; font-size: 28px;}
+
+.mainText{font-weight: 400; font-size: 22px; line-height: 40px;}
+.subText{font-weight: 400; font-size: 20px; padding-top: 15px;}
+.boldText {font-weight: 800;}
+
+
+
+
+
+
+.inner .overview{margin-top: 150px; display: flex;}
+.inner .overview .mainText{padding-left: 100px;}
+
+.inner .stepBox{ display: flex; text-align: center; margin-top: 150px; } 
+.inner .stepBox .box{ width: calc( 100% / 3 ); border-right: solid 1px white; margin: 0 auto; padding: 15vh 0;}
+
+.inner .stepBox .box:nth-last-child(1){border-right: none;}
+
+.inner .stepBox .box .mainText{margin-top: 50px;}
+
+.widthLine {width: 100vw; height: 30vh; border-bottom: solid 1px #fff;}
+
+
+.back{width: 100vw; height: 10vh;}
+.back .backBtn{width: 50px; height: 50px; border: solid 1px #fff; border-radius: 999px; position:absolute; top: 2%; left: 1%; background-image:url(../img/arrow.png); background-repeat: no-repeat; background-position: 50%;} 
+.back .backBtn:hover{background-color: #fff; background-image:url(../img/Arrowbb.png);}
+.back .link a{position: absolute; right: 3%; top: 3%; border: solid 1px #fff; padding: 1vh 2vw; }
+.back .link a:hover{background-color: #fff; color: #000;}
+
+.MainImg{width: 100vw; height: 50vh; margin-bottom: 150px;}
+
+
+.codeReview .developPoint {display: flex;}
+.codeReview .developPoint .subTitle,
+.codeReview .developPoint .mainText
+{margin-top: 150px;}
+
+.codeReview .developPoint .mainText{padding-left: 100px; line-height: 70px;}
+
+.codeReview .codeSection{display: flex; margin-top: 150px; text-align: left; margin-bottom: 150px;}
+.codeReview .codeSection .codeimg{margin-right: 80px;}
+
+.codeReview .codeSection .codeimg .subTitle{padding-bottom: 50px;}
+
+.codeReview .codeSection .codeText .subTitle{padding-bottom: 50px; margin-top: 70px;}
+.codeReview .codeSection .codeText .mainText{line-height: 40px; text-align: left;}
