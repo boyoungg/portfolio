@@ -6,7 +6,7 @@
 section{width: 100vw; height: 100vh; }
 
 #mainsec{ background-repeat: no-repeat; background-size: cover; z-index: -999;}
-#mainsec video{width: 100vw; position: absolute; top: -16vh; z-index: -1;}
+#mainsec video{width: 100vw; position: absolute; z-index: -1;}
 
 #mainsec .m-title {line-height: 1.3em; padding-top: 10vh; margin-bottom: 30vh;}
 #mainsec .m-title > span{font-weight: 800;}
