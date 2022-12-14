@@ -75,7 +75,7 @@ $(window).scroll(function(){
     var lastPage= $('#sec5').offset();
 
 
-    var xs = -0.625 * scrollTopValue + 5200;
+    var xs = -0.625 * scrollTopValue + 5500;
 
     if(scrollTopValue > sectionMyPage.top){
         $('.myText').css({
