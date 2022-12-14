@@ -72,7 +72,7 @@ document.querySelector(".Btnright").addEventListener('click', function(idx) {
     if( i == 4 ){
         $('.-04').addClass('full');
 
-        $('.workTitle').html(`<a href="codeReview04.html">MANG-O <span id="viewmm">VIEW MORE -></span></a>`);
+        $('.workTitle').html(`<a href="codeReview05.html">MANG-O <span id="viewmm">VIEW MORE -></span></a>`);
 
         $('.workscript').html("졸업작품 팀작업으로 제작한 MANG-O의 웹 페이지입니다<br>팀장과 개발자로 참여하였고 JS, CSS를 이용하여 인터렉션을 작업하였습니다<br>JAVASCRIPT를 이용하여 망생테스트와 결과를 제작하였습니다.");
 
@@ -89,7 +89,7 @@ document.querySelector(".Btnright").addEventListener('click', function(idx) {
     if( i == 5 ){
         $('.-05').addClass('full');
 
-        $('.workTitle').html(`<a href="codeReview04.html">PUBG : BATTLEGROUND DESTON <span id="viewmm">VIEW MORE -></span></a>`);
+        $('.workTitle').html(`<a href="codeReview06.html">PUBG : BATTLEGROUND DESTON <span id="viewmm">VIEW MORE -></span></a>`);
 
         $('.workscript').html("배틀그라운드의 신규 콘텐츠 DESTON을 주제의 클론코딩 작업물입니다<br>CANVAS를 이용하여 스크롤 마다 이미지 로딩 이벤트를 사용하였고<br>CSS와 JQUERY를 활용하여 인터렉션에 집중한 페이지입니다.");
 
@@ -187,7 +187,7 @@ document.querySelector(".BtnLeft").addEventListener('click', function(idx) {
         $('.-02, .-03, .-01, .-05').removeClass('full');
         $('.-04').addClass('full');
 
-        $('.workTitle').html(`<a href="codeReview04.html">MANG-O <span id="viewmm">VIEW MORE -></span></a>`);
+        $('.workTitle').html(`<a href="codeReview05.html">MANG-O <span id="viewmm">VIEW MORE -></span></a>`);
 
         $('.workscript').html("졸업작품 팀작업으로 제작한 MANG-O의 웹 페이지입니다<br>팀장과 개발자로 참여하였고 JS, CSS를 이용하여 인터렉션을 작업하였습니다<br>JAVASCRIPT를 이용하여 망생테스트와 결과를 제작하였습니다.");
 
@@ -206,7 +206,7 @@ document.querySelector(".BtnLeft").addEventListener('click', function(idx) {
         $('.-02, .-03, .-04, .-01').removeClass('full');
         $('.-05').addClass('full');
         
-        $('.workTitle').html(`<a href="codeReview04.html">PUBG : BATTLEGROUND DESTON <span id="viewmm">VIEW MORE -></span></a>`);
+        $('.workTitle').html(`<a href="codeReview06.html">PUBG : BATTLEGROUND DESTON <span id="viewmm">VIEW MORE -></span></a>`);
 
         $('.workscript').html("배틀그라운드의 신규 콘텐츠 DESTON을 주제의 클론코딩 작업물입니다<br>CANVAS를 이용하여 스크롤 마다 이미지 로딩 이벤트를 사용하였고<br>CSS와 JQUERY를 활용하여 인터렉션에 집중한 페이지입니다.");
 
@@ -232,7 +232,7 @@ $("#work01").click(function(){
     $('.-02, .-03, .-04, .-01').removeClass('full');
     $('.-05').addClass('full');
         
-    $('.workTitle').html(`<a href="codeReview04.html">PUBG : BATTLEGROUND DESTON <span id="viewmm">VIEW MORE -></span></a>`);
+    $('.workTitle').html(`<a href="codeReview06.html">PUBG : BATTLEGROUND DESTON <span id="viewmm">VIEW MORE -></span></a>`);
 
     $('.workscript').html("배틀그라운드의 신규 콘텐츠 DESTON을 주제의 클론코딩 작업물입니다<br>CANVAS를 이용하여 스크롤 마다 이미지 로딩 이벤트를 사용하였고<br>CSS와 JQUERY를 활용하여 인터렉션에 집중한 페이지입니다.");
 
@@ -252,7 +252,7 @@ $("#work02").click(function(){
     $('.-02, .-03, .-05, .-01').removeClass('full');
     $('.-04').addClass('full');
 
-    $('.workTitle').html(`<a href="codeReview04.html">MANG-O <span id="viewmm">VIEW MORE -></span></a>`);
+    $('.workTitle').html(`<a href="codeReview05.html">MANG-O <span id="viewmm">VIEW MORE -></span></a>`);
 
     $('.workscript').html("졸업작품 팀작업으로 제작한 MANG-O의 웹 페이지입니다<br>팀장과 개발자로 참여하였고 JS, CSS를 이용하여 인터렉션을 작업하였습니다<br>JAVASCRIPT를 이용하여 망생테스트와 결과를 제작하였습니다.");
 
