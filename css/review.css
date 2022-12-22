@@ -1,0 +1,67 @@
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+@import url('https://webfontworld.github.io/Rebecca/Rebecca.css');
+
+body{width: 100vw; background-color: rgb(3, 3, 3); color: #fff; font-family: 'Pretendard';}
+
+/*style*/
+.inner{margin: 0 6vw; }
+.mainTitle{font-weight: 900; font-size: 32px; padding-top: 70px;}
+.subTitle{font-weight: 800; font-size: 28px;}
+
+.mainText{font-weight: 400; font-size: 22px; line-height: 40px;}
+.subText{font-weight: 400; font-size: 20px; padding-top: 15px;}
+.boldText {font-weight: 800;}
+
+
+
+
+
+
+.inner .overview{margin-top: 150px; display: flex;}
+.inner .overview .mainText{padding-left: 100px;}
+
+.inner .stepBox{ display: flex; text-align: center; margin-top: 150px; } 
+.inner .stepBox .box{ width: calc( 100% / 3 ); border-right: solid 1px white; margin: 0 auto; padding: 15vh 0;}
+
+.inner .stepBox .box:nth-last-child(1){border-right: none;}
+
+.inner .stepBox .box .mainText{margin-top: 50px;}
+
+.widthLine {width: 100vw; height: 30vh; border-bottom: solid 1px #fff;}
+
+
+.back{width: 100vw; height: 8vh; position: sticky; top: 0; z-index: 99; background-color: #000; display: flex;}
+.back .backBtn{width: 50px; height: 50px; border: solid 1px #fff; border-radius: 999px; background-image:url(../img/arrow.png); background-repeat: no-repeat; background-position: 50%; margin: 25% 0 0 20%;} 
+.back .backBtn:hover{background-color: #fff; background-image:url(../img/Arrowbb.png);}
+.back .link a{border: solid 1px #fff; padding: 1vh 2vw; position: absolute; right: 2%; top: 23%;}
+.back .link a:hover{background-color: #fff; color: #000;}
+
+.MainImg{width: 100vw; height: 50vh; margin-bottom: 150px;}
+
+.slick-dots{width: 100px;}
+
+
+.codeReview .developPoint {display: flex;}
+.codeReview .developPoint .subTitle,
+.codeReview .developPoint .mainText
+{margin-top: 150px;}
+
+.codeReview .developPoint .mainText{padding-left: 100px; line-height: 70px;}
+
+.codeReview .codeSection{display: flex; margin-top: 150px; text-align: left; margin-bottom: 150px;}
+.codeReview .codeSection .codeimg{margin-right: 80px;}
+
+.codeReview .codeSection .codeimg .subTitle{padding-bottom: 50px;}
+
+.codeReview .codeSection .codeText .subTitle{padding-bottom: 50px; margin-top: 70px;}
+.codeReview .codeSection .codeText .mainText{line-height: 40px; text-align: left; margin-bottom: 70px;}
+
+.codeReview .codeSection .codeText .testView{font-size: 20px;}
+.codeReview .codeSection .codeText .testView:hover{font-size: 22px;}
+
+.PageBtn{display: flex; width: 100%; height: 5vh; background-color: rgb(0, 0, 0); border-top: solid 1px #fff;}
+.PageBtn .Btnstyle{padding-top: 1.2vh; margin: 0 auto; font-size: 1.3rem; }
+.PageBtn .Btnstyle img{width: 1vw; padding: 0 1vw;}
+
+.videoSection{ text-align: center;}
+.videoSection .inText{font-size: 1.5rem; margin: 10vh 0 0 2vh;}

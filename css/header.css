@@ -1,0 +1,16 @@
+/* header */
+header{ position: fixed; display: flex; width: 70vw; transform: rotate(90deg); z-index: 999; transition: 1s; top: 70vh; right: -30vw;}
+header nav .side-nav{display: flex;}
+header nav .side-nav li{ margin: 0 3vw; padding-bottom: 1vh; }
+header nav .side-nav .head01{font-weight: 900;}
+header nav .side-nav li.underline{border-bottom: 1px white solid; transition: 1s;}
+header.change{
+    transform: rotate(0);
+    right: 5vh;
+    top: 5vh;
+
+}
+
+
+header nav .side-nav li a:hover{color: rgb(27, 107, 255); font-weight: 900; }
+ 

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/review.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/slick-img.js"></script>
+</head>
+<body>
+    <div class="back">
+        <a href="index.html"><div class="backBtn"></div></a>
+        <div class="link subText">
+            <a href="http://pubg.dothome.co.kr/">http://pubg.dothome.co.kr/</a>
+        </div>
+    </div>
+    <div class="MainImg">
+        <img src="./img/codeReview05.jpg" alt="">
+        <img src="./img/codeReview05-01.png" alt="">
+        <img src="./img/codeReview05-02.png" alt="">
+    </div>
+
+    <div class="inner">
+        <div class="mainTitle">BATTLEGROUND NEW MAP : DESTON</div>
+        <div class="subText">2022. 11. 28 ~ 2022. 12. 15</div>
+
+        <div class="overview">
+            <div class="subTitle" data-aos="fade-up">OVERVIEW</div>
+            <div class="mainText" data-aos="fade-up">PUBG의 게임 BATTLEGROUNDS의 새로운 콘텐츠인 맵 DESTON을 주제로 작업한 클론코딩 페이지 입니다.<br>기존 페이지는 인터렉션이 많이 없어 정적인 느낌이 강한 DESTON 및 게임 소개 페이지이지만 인터렉션을 추가하고 원스크롤 형태로 변경하여<br>HEADER의 네비게이션을 DESTON 관련 콘텐츠로 변경하여 작업하였습니다.</div>
+        </div>
+
+        <div class="stepBox">
+            <div class="box">
+                <h3 class="subTitle">DEVELOPMENT</h3>
+                <p class="mainText" data-aos="fade-up"><span class="boldText">MAIN PAGE</span> (ONE SCROLL)<br>
+
+                    전반적인 기획 / 디자인 / 프로그래밍<br>
+                    작업을 진행하였습니다.
+                    </p>
+            </div>
+            <div class="box">
+                <h3 class="subTitle">LANGUAGE</h3>
+                <p class="mainText boldText" data-aos="fade-up">HTML / CSS <br>
+                    JAVASCRIPT / JQUERY
+                    </p>
+            </div>
+            <div class="box">
+                <h3 class="subTitle">DEVICE</h3>
+                <p class="mainText" data-aos="fade-up">PC <br>
+
+                    </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="widthLine"></div>
+
+    <div class="videoSection">
+        <p class="inText">* 호스트 링크에 트래픽 문제가 발생하고있어 시연 영상을 함께 첨부합니다.</p>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/IxvTzkFG5Hk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+    </div>
+
+    <div class="codeReview inner">
+
+        <div class="developPoint">
+            <div class="subTitle">DEVELOP POINT</div>
+            <div class="mainText" data-aos="fade-up">
+               <span class="boldText">SCROLL INTERACTION :</span> 스크롤에 따라서 변화하는 애니메이션 <br>
+               <span class="boldText">FLIP CARD :</span>  CSS로 구현한 FLIPCARD 인터렉션션<br>
+               <span class="boldText">CANVAS VIDEO SCROLL :</span> 캔버스와 이미지를 이용하여 비디오제어 인터렉션<br>
+            </div>
+        </div>
+
+        <div class="codeSection">
+            <div class="codeimg">
+                <h2 class="subTitle">CODE REVIEW</h2>
+                <img src="./img/code_portfolio05.png" alt="" data-aos="fade-up">
+            </div>
+
+            <div class="codeText">
+                <h4 class="subTitle">
+                    CANVAS VIDEO SCROLL
+                </h4>
+
+                <p class="mainText" data-aos="fade-up">
+                    HTML 의 CANVAS 태그에 영상에서 추출한 프레임 이미지를 불러와<br>
+                    스크롤 할때마다 마치 영상이 움직이는 것 처럼 보이게 만든 인터렉션. <br>
+                    <br>
+                    반복문을 통해 총 불러와야하는 이미지(TOTALIMAGESCOUNT) 만큼<br>
+                    반복하여 JACASCRIPT에서 불러와 스크롤 할때마다 로드된<br>
+                    총 이미지를 제어한다<br>
+    
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="PageBtn">
+        <div class="leftBtn Btnstyle"><a href="codeReview05.html"><img src="./img/arrow.png" alt="">MANGO&TEST</a></div>
+        <div class="rightBtn Btnstyle"> <a href="codeReview01.html">PORTFOLIO<img src="./img/arrow1.png" alt=""></a></div>
+    </div>
+    <script>
+        $('.MainImg').slick({
+        arrows: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    });
+    AOS.init();
+    </script>
+    
+</body>
+</html>
